@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-custom {
+    background-color: #cccccc !important;
+    padding: 20px;
+
+}
+
+.nav-item>a:hover {
+    color: #cccccc !important;
+}
+
+.top-m-150 {
+    margin-top: 150px;
+}
+
+.top-m-20 {
+    margin-top: 20px;
+}
+
+.top-m-50 {
+    margin-top: 80px;
+}
+
+.top-m-145 {
+    margin-top: 145px;
+}
+
+.left-m-10 {
+    margin-left: 10%;
+}
+
+.left-m-40 {
+    margin-left: 300px;
+}
+
+.left-m-20 {
+    margin-left: 20%;
+}
+
+.left-m-30 {
+    margin-left: 25%;
+}
+
+.left-m {
+    margin-left: 50%;
+}
+
+.logo {
+
+    align-items: center;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.navbar {
+    background-color: #808080 !important;
+}
+
+.separator {
+    margin-top: -20px;
+    margin-bottom: 1px;
+    position: relative;
+    height: 5px;
+    background: #44aa00;
+
+}
+
+/* *********************************START:2ND SECTION ********************************/
+.docs_content {
+    padding-top: 40px;
+    display: flex;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    background-color: #333333;
+    position: absolute;
+    left: 0px;
+    height: 144.8%;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+.black {
+    color: #4d4d4d;
+    font-weight: bold;
+}
+
+.title {
+    color: #44aa00;
+    font-size: 35px;
+
+
+
+}
+
+.tit {
+    color: #44aa00;
+    font-size: 30px;
+
+
+}
+
+.st_pa {
+    /* slider description on p, a */
+    color: #44aa00;
+    font-size: 60px;
+
+
+}
+
+.green {
+    color: #44aa00;
+}
+
+.docs>li>a:hover {
+    color: #fff;
+}
+
+.docs {
+    margin: 12px;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.docs li a {
+    color: #44aa00;
+    display: block;
+    font-size: 20px;
+    padding: 2 px;
+
+}
+
+.docs li {
+    list-style: none;
+}
+
+.docs li a {
+    text-decoration: none;
+}
+
+.cont_explain {
+
+    background-color: #f2f2f2;
+    position: absolute;
+    left: 315px;
+    color: #4d4d4d;
+    padding-top: 80px;
+    font-size: 24px;
+    /* width: 82%; */
+    vertical-align: top;
+}
