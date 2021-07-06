@@ -22,12 +22,14 @@
 
 <body>
     <nav class="nav navbar-custom fixed-top">
-        <a class="logo left-m">
-            <img src="../image/xlvm.svg">
+        <a class="logo left-m" style="margin-top: -15px;">
+            <img src="../image/xlvm.svg" style="height:90px;">
+            <p class="title right-m-10" style="font-weight: bold;"> XLVM</p>
+
         </a>
     </nav>
     <section>
-        <div class=" navbar navbar-expand-lg bg-dark navbar-dark fixed-top top-m-50" id="navbar">
+        <div class=" navbar navbar-expand-lg bg-dark navbar-dark fixed-top top-m-140" id="navbar">
 
             <ul class="d-flex nav navbar-nav left-m-30">
                 <li class="nav-item">
@@ -56,11 +58,10 @@
             </ul>
 
         </div>
+
     </section>
 
-
-
-    <div class="docs_content top-m-145">
+    <div class="docs_content ">
         <div class="docs_table">
             <div>
                 <p class="title left-m-20"> XLVM</p>
@@ -90,20 +91,20 @@
                 </ul>
             </div>
             <div>
-                <p class="tit top-m-150 left-m-10">New Releases</p>
+                <p class="tit top-m-150 left-m-15">New Releases</p>
                 <div class="separator"></div>
             </div>
             <div class="left-m-20">
                 <ul class=" list-inline docs">
                     <li>
-                        <a href="#"> Espresso </a>
+                        <a href="http://www.cascaron.org/getstart.html"> Espresso </a>
                     </li>
 
 
                 </ul>
             </div>
             <div>
-                <p class="tit top-m-150 left-m-10">Old Releases</p>
+                <p class="tit top-m-150 left-m-15">Old Releases</p>
                 <div class="separator"></div>
             </div>
             <div class="left-m-20">
@@ -117,26 +118,29 @@
             </div>
         </div>
     </div>
-    <div class="cont_explain  top-m-145">
-        <p class="st_pa  left-m-10"> The XLVM Library Infrastructure</p>
+    <div class="cont_explain  top-m-200">
+        <p class="st_pa  left-m-170"> The XLVM Library Infrastructure</p>
 
         <div style="padding:50px;">
             <p style="margin-bottom: 40px"> The XLVM is a Multi-Collection modular project, provides high level tool
                 sets to manage low level
-                technologies. XLVM itself doesn't acronym. XLVM is a international private research foundation, acronyms
+                technologies. XLVM itself doesn't acronym. XLVM is a international private research foundation,
+                acronyms
                 as <span class="green" style="font-weight: bold;"><i>IPRF</i></span>.
             </p>
             <p style="margin-bottom: 40px"> XLVM is at it’s early stage, begins as a research project in IPRF ,
                 involvement of different areas like
                 micro-controller, micro-processor communication and embedded system to manage instructions to
                 input/output, machine learning to make it more intelligence and advancement and many more areas that
-                XLVM covers up. Aims of XLVM is to make it commonise amongs different manufacturers and implementations.
+                XLVM covers up. Aims of XLVM is to make it commonise amongs different manufacturers and
+                implementations.
                 Especially in case of assembly languages, XLVM provides more efficient way to remove unnecessarily
                 complexities to write a hello world code and easy to manage different registers of different
                 architectures. Some of XLVM’s project is provides wrapper APIs.
             </p>
             <p style="margin-bottom: 40px">
-                Most of XLVM’s projects has grown to be a commercial and open source level, most of it’s projects used
+                Most of XLVM’s projects has grown to be a commercial and open source level, most of it’s projects
+                used
                 as a research level. Later on, XLVM will be licensed under commercial source. Both GNU-GCC and
                 LLVM-Clang is supported to XLVM core library.
             </p>
@@ -146,35 +150,38 @@
             </p>
             <div>
                 <p>
-                    <span class="green">1.</span>&nbsp; &nbsp; The XLVM core library provides translation from any
+                    <span class="green">1.</span>&nbsp; &nbsp;The XLVM core library provides translation from any
                     language to target language with minimal and
                     optimised.
                 </p>
                 <p>
-                    <span class="green">2.</span>&nbsp; &nbsp; <span class="black">socket</span> is a wrapper library
+                    <span class="green">2.</span>&nbsp; &nbsp;<span class="black">socket</span> is a wrapper library
                     which has zero copy
                     capabilities through kernel level data flow from database
                 </p>
                 <p>
-                    <span class="green">3.</span>&nbsp; &nbsp;<span class="black">delta</span> is a native assembly
+                    <span class="green">3.</span>&nbsp;&nbsp;<span class="black">delta</span> is a native assembly
                     language which compatibles with architecture 8086 micro-controller and
                     8086 micro-proccessor.
                 </p>
                 <p>
-                    <span class="green">4.</span>&nbsp; &nbsp; <span class="black">espresso</span> is a project written
+                    <span class="green">4.</span>&nbsp;&nbsp; <span class="black">espresso</span> is a project
+                    written
                     in native C++ which reduces the complexity of server and client side.
                 </p>
                 <p>
-                    <span class="green">5.</span>&nbsp; &nbsp; <span class="black">libopencl</span> is combined library
+                    <span class="green">5.</span>&nbsp;&nbsp; <span class="black">libopencl</span> is combined
+                    library
                     of opencl standard library and dlib (pixel lib), aims to implement in calibration of camera and
-                    frames.
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;frames.
                 </p>
                 <p>
-                    <span class="green">6.</span>&nbsp; &nbsp; <span class="black">corelib</span> is it’s XLVM core
+                    <span class="green">6.</span>&nbsp;&nbsp; <span class="black">corelib</span> is it’s XLVM core
                     library provides common infra-structure from different manufacturers
                 </p>
                 <p>
-                    <span class="green">7.</span>&nbsp; &nbsp; <span class="black">libnlp</span> is a project that aims
+                    <span class="green">7.</span>&nbsp;&nbsp;<span class="black">libnlp</span> is a project that
+                    aims
                     to sentiments analysis of human languages, widely used in machine learning
                 </p>
                 <p>
@@ -186,18 +193,24 @@
                     “Machine Middle Language”
                 </p>
                 <p>
-                    <span class="green">10.</span>&nbsp; &nbsp; <span class="black">tango</span> is a C++ script,
+                    <span class="green">10.</span>&nbsp;&nbsp;<span class="black">tango</span> is a C++ script,
                     provides highly tuned implementations of low level interections to assembly codes, supports both
-                    both architecture 32 bits and 64 bits operating systems: x86_64/32,
-                    arm_64/32
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    both; architecture 32 bits and 64 bits operating
+                    systems:x86_64/32,arm_64/32
                 </p>
             </div>
 
 
         </div>
 
+    </div>
 
 
+    <div class="footer ">
+
+        <p> &#169;All Rights are Reserved</p>
+    </div>
 
 </body>
 
