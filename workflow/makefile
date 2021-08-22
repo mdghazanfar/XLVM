@@ -1,0 +1,10 @@
+
+
+
+all:
+	nodemon app.js
+
+
+
+
+	

@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+.top-m-20 {
+    margin-top: 20px;
+}
+
+.top-m-100 {
+    margin-top: 100px;
+}
+
+.top-m-140 {
+    margin-top: 140px;
+}
+
+.top-m-150 {
+    margin-top: 150px;
+}
+
+.top-m-200 {
+    margin-top: 200px;
+}
+
+.left-m-15 {
+    margin-left: 15%;
+}
+
+
+.left-m-20 {
+    margin-left: 20%;
+}
+
+.left-m-30 {
+    margin-left: 25%;
+}
+
+.left-m {
+    margin-left: 45%;
+}
+
+.left-m-170 {
+    margin-left: 170px;
+}
+
+.left-m-300 {
+    margin-left: 300px;
+}
+
+/*============================================================================  */
+
+
+
+.navbar-toggler.custom-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 1rem;
+    margin-left: 80%;
+
+}
+
+button.custom-btn div.line-menubar {
+    height: 2px;
+    width: 20px;
+    margin: 5px 0px;
+    background-color: #fff;
+}
+
+button.navbar-toggler {
+    border: #fff 2px solid !important;
+}
+
+button.navbar-toggler:hover {
+    border: green 2px solid !important;
+}
+
+.dropdown-menu {
+    /* background-color: #302c38 !important; */
+    background-color: #808080 !important;
+}
+
+.dropdown-menu a {
+    color: azure !important;
+}
+
+
+div.navbar {
+    background-color: #f2f2f2 !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #808080 !important;
+
+}
+
+.fwc_pa {
+    /* font white color on p and a */
+    text-decoration: none;
+    color: azure;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.navbar-nav a:hover {
+    /* color: #bd6f29; */
+    color: #cccccc;
+    text-decoration: none;
+
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:425px) {
+    .left-m {
+        margin-left: 44%;
+    }
+
+    .logo img {
+        width: 75%;
+        height: auto;
+    }
+
+    .title {
+        margin-left: -10px;
+        color: #44aa00;
+        font-size: 25px !important;
+    }
+
+    .navbar-toggler.custom-btn {
+
+        margin-left: 65% !important;
+    }
+
+    .fwc_pa {
+        font-size: 20px;
+    }
+
+    .banner1 .docs-content .sec-heading h1 {
+
+        font-size: 5.5vw !important;
+    }
+
+    .footer-text p {
+        color: #fff;
+        font-size: 14px !important;
+    }
+
+    .banner1 .services-item p {
+
+        font-size: 16px !important;
+    }
+
+    .banner1 .docs-content .text p {
+
+        font-size: 16px !important;
+    }
+
+    .banner1 .icon-border p {
+
+        font-size: 15px !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 426px) and (max-width: 700px) {
+    .navbar-toggler.custom-btn {
+
+        margin-left: 76% !important;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+    .navbar {
+        padding: 2rem;
+    }
+
+    .left-m-300 {
+        margin-left: 0px;
+    }
+
+    .margin-right-40 {
+        margin-right: 100% !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .margin-right-40 {
+        margin-right: 100% !important;
+    }
+
+    .dropdown-menu {
+        /* background-color: #302c38 !important; */
+        background-color: #808080 !important;
+    }
+
+    .dropdown-menu a {
+        color: azure !important;
+    }
+
+    .size-15 {
+        font-size: 14px !important;
+    }
+
+    .top-marg-10 {
+        margin-top: 10px;
+    }
+
+    .navbar-toggler.custom-btn {
+        position: absolute;
+        cursor: pointer;
+        top: 12px;
+        margin-left: 80%;
+
+    }
+
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1068px) {
+    .left-m-300 {
+        margin-left: 100px;
+    }
+}
+
+/* *********************************START:Header SECTION ********************************/
+
+.title {
+    color: #44aa00;
+    font-size: 35px;
+}
+
+.logo {
+    margin-top: 10px;
+    align-items: center;
+}
+
+
+
+
+
+/* *********************************************StART =>1St Section <=*************************************************** */
+
+.centered {
+    text-align: center !important;
+}
+
+.green {
+    color: green;
+}
+
+.banner1 {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    position: relative;
+    /* background-color: #302c38; */
+}
+
+
+.banner1 .docs-content .sec-heading h1 {
+
+    color: #44aa00;
+    z-index: 12;
+    font-family: Barlow;
+    height: auto;
+    white-space: normal;
+    max-width: 75rem;
+    line-height: 85px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 3.5vw;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.banner1 .docs-content .text p {
+    position: relative;
+    color: #232323;
+    font-size: 18px;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+    width: 100%;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+
+.banner1 .icon-border i {
+    color: #232323;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 16px;
+
+}
+
+.banner1 .icon-border p {
+    overflow: hidden;
+    position: relative;
+    font-size: 17px;
+    color: #333;
+    display: block;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+    margin-top: -25px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.banner1 .services-item p {
+    color: #232323;
+    position: relative;
+    font-size: 20px;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+    width: 100%;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.banner1 .icon-border p a {
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+}
+
+
+
+
+
+/* *********************************************END =>1St Section <=*************************************************** */
+
+/* *************************************************  => Footer Section <= ****************************************************** */
+.footer {
+    background-color: #808080;
+    height: 40px;
+    width: 100%;
+
+}
+
+.footer-text p {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+}
